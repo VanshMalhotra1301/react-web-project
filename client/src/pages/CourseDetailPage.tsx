@@ -21,7 +21,8 @@ export default function CourseDetailPage() {
   const schema = getCourseSchema({
     name: course.title,
     description: course.description,
-    providerName: 'Malhotra Classes',
+    slug: course.slug,
+    duration: course.duration,
   });
 
   return (
