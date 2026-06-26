@@ -17,13 +17,13 @@ const REASONS = [
   {
     icon: GraduationCap,
     title: 'Expert Faculty',
-    description: 'Learn from Rohtak\'s finest educators with decades of combined experience in competitive and board exam coaching.',
+    description: 'Learn from Rohtak\'s finest educators with years of combined experience in competitive and board exam coaching.',
     color: 'bg-brand-gold/10 text-brand-gold-dark',
   },
   {
     icon: Target,
     title: 'Result-Oriented Approach',
-    description: 'Our proven methodology has consistently delivered top rankers across CBSE, HBSE, JEE, NEET, and Olympiad examinations.',
+    description: 'Our modern methodology is designed to deliver top rankers across CBSE, HBSE, JEE, NEET, and Olympiad examinations.',
     color: 'bg-brand-emerald/10 text-brand-emerald-dark',
   },
   {
@@ -59,7 +59,7 @@ const REASONS = [
   {
     icon: ShieldCheck,
     title: 'Trusted by Parents',
-    description: 'Over 15,000 families have trusted Malhotra Classes for their children\'s academic journey across two decades.',
+    description: 'Our commitment to uncompromising quality and student success makes us the premier choice for your children\'s academic journey.',
     color: 'bg-brand-gold/10 text-brand-gold-dark',
   },
 ];
@@ -76,7 +76,7 @@ export function WhyChooseUs() {
         <SectionHeading
           subtitle="Why Choose Us"
           title="The Malhotra Classes Advantage"
-          description="Discover what makes us Rohtak's most trusted name in education. Every aspect of our institute is designed for your success."
+          description="Discover what makes us Rohtak's premier destination for quality education. Every aspect of our institute is designed for your success."
         />
 
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">

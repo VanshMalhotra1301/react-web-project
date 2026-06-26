@@ -48,8 +48,6 @@ export default function HomePage() {
       <TeachingMethodology />
       <CoursesPreview />
       <TopFaculty />
-      <ResultsShowcase />
-      <TestimonialsCarousel />
       <FAQSection />
       <LocationSection />
       <CTABanner />

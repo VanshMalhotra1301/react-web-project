@@ -24,10 +24,10 @@ export default function AboutPage() {
           />
           <div className="max-w-3xl">
             <h1 className="mb-6 text-4xl font-extrabold text-white font-heading sm:text-5xl lg:text-6xl">
-              Nurturing <span className="text-brand-gold">Excellence</span> Since 2005
+              Nurturing <span className="text-brand-gold">Excellence</span>
             </h1>
             <p className="text-lg leading-relaxed text-white/80">
-              For over two decades, Malhotra Classes has been the cornerstone of academic success in Rohtak, transforming thousands of students into confident achievers.
+              Malhotra Classes is the modern cornerstone of academic success in Rohtak, committed to transforming students into confident achievers.
             </p>
           </div>
         </Container>
@@ -44,17 +44,17 @@ export default function AboutPage() {
               transition={{ duration: 0.5 }}
             >
               <h2 className="mb-6 text-3xl font-bold text-text-primary font-heading sm:text-4xl">
-                Our Journey
+                Our Story
               </h2>
               <div className="prose prose-lg text-text-secondary">
                 <p>
-                  Founded in 2005 by Dr. Rajesh Malhotra, what started as a small tuition centre with just 15 students has now grown into Rohtak's most trusted educational institution. Our journey has been defined by a single, unwavering commitment: providing quality education that goes beyond rote memorisation.
+                  Founded by passionate educators, Malhotra Classes was built on a single, unwavering commitment: providing quality education that goes beyond rote memorisation. We recognized a need for a modern, highly-personalized approach to competitive exam coaching in Rohtak.
                 </p>
                 <p>
-                  Over the years, we have continuously adapted our teaching methodologies to keep pace with changing examination patterns, integrating modern technology while retaining the personal touch that defines traditional mentoring.
+                  We are deeply invested in adapting teaching methodologies to keep pace with changing examination patterns, integrating modern technology while providing the rigorous personal mentorship that defines true academic excellence.
                 </p>
                 <p>
-                  Today, Malhotra Classes stands proud with a legacy of producing district toppers, NTSE scholars, and successful IIT/NEET aspirants year after year.
+                  Today, Malhotra Classes stands ready to help aspiring students achieve their dreams of becoming NTSE scholars, successful IIT/NEET aspirants, and board exam toppers.
                 </p>
               </div>
             </motion.div>
@@ -68,11 +68,11 @@ export default function AboutPage() {
             >
               <div className="absolute inset-0 bg-gradient-to-tr from-brand-navy/80 to-brand-gold/40 mix-blend-multiply" />
               <div className="h-full w-full bg-surface-secondary flex items-center justify-center">
-                <span className="text-text-tertiary">Historical Institute Photo</span>
+                <span className="text-text-tertiary">Modern Campus Photo</span>
               </div>
               <div className="absolute bottom-6 left-6 rounded-xl bg-white/10 p-6 backdrop-blur-md border border-white/20 text-white">
-                <p className="font-accent text-4xl font-bold text-brand-gold">20+</p>
-                <p className="font-medium">Years of Trust</p>
+                <p className="font-accent text-4xl font-bold text-brand-gold">100%</p>
+                <p className="font-medium">Commitment to Success</p>
               </div>
             </motion.div>
           </div>
@@ -136,9 +136,9 @@ export default function AboutPage() {
                     <Trophy className="h-6 w-6 text-brand-gold-dark" />
                   </div>
                   <div>
-                    <h3 className="mb-2 text-lg font-bold text-text-primary font-heading">Proven Track Record</h3>
+                    <h3 className="mb-2 text-lg font-bold text-text-primary font-heading">Expert Mentorship</h3>
                     <p className="text-sm leading-relaxed text-text-secondary">
-                      Over 15,000 successful alumni. We consistently produce top rankers in CBSE, HBSE, JEE, and NEET examinations.
+                      Our faculty consists of highly dedicated subject experts who are committed to producing top rankers in CBSE, HBSE, JEE, and NEET.
                     </p>
                   </div>
                 </div>
@@ -168,9 +168,9 @@ export default function AboutPage() {
             </div>
 
             <div className="rounded-2xl bg-brand-navy p-8 text-white lg:p-12">
-              <h3 className="mb-4 text-2xl font-bold font-heading">Join the Legacy</h3>
+              <h3 className="mb-4 text-2xl font-bold font-heading">Start Your Journey</h3>
               <p className="mb-8 text-white/80">
-                Experience the Malhotra Classes difference. Secure your academic future with Rohtak's most trusted coaching institute.
+                Experience the Malhotra Classes difference. Secure your academic future with Rohtak's premier coaching institute.
               </p>
               <div className="space-y-4">
                 <Link to="/courses" className="block">

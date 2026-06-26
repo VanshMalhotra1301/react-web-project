@@ -6,12 +6,12 @@ import { GraduationCap, Users, Award, BookOpen, TrendingUp, Clock } from 'lucide
 import { formatIndianNumber } from '@/utils/formatters';
 
 const COUNTERS = [
-  { icon: Clock, value: 20, suffix: '+', label: 'Years of Excellence', color: 'from-brand-gold/20 to-brand-gold/5' },
-  { icon: Users, value: 15000, suffix: '+', label: 'Students Mentored', color: 'from-brand-emerald/20 to-brand-emerald/5' },
-  { icon: Award, value: 500, suffix: '+', label: 'Board Toppers', color: 'from-blue-500/20 to-blue-500/5' },
-  { icon: TrendingUp, value: 98, suffix: '%', label: 'Success Rate', color: 'from-purple-500/20 to-purple-500/5' },
-  { icon: BookOpen, value: 50, suffix: '+', label: 'Expert Courses', color: 'from-brand-coral/20 to-brand-coral/5' },
-  { icon: GraduationCap, value: 200, suffix: '+', label: 'Selections in JEE/NEET', color: 'from-teal-500/20 to-teal-500/5' },
+  { icon: Users, value: 30, suffix: '', label: 'Students per Batch', color: 'from-brand-emerald/20 to-brand-emerald/5' },
+  { icon: GraduationCap, value: 5, suffix: '+', label: 'Subject Experts', color: 'from-brand-gold/20 to-brand-gold/5' },
+  { icon: BookOpen, value: 4, suffix: '+', label: 'Core Programs', color: 'from-blue-500/20 to-blue-500/5' },
+  { icon: Clock, value: 24, suffix: '/7', label: 'Doubt Support', color: 'from-purple-500/20 to-purple-500/5' },
+  { icon: TrendingUp, value: 100, suffix: '%', label: 'Commitment', color: 'from-brand-coral/20 to-brand-coral/5' },
+  { icon: Award, value: 1, suffix: 'st', label: 'Choice in Rohtak', color: 'from-teal-500/20 to-teal-500/5' },
 ];
 
 function AnimatedNumber({ target, suffix, isVisible }: { target: number; suffix: string; isVisible: boolean }) {

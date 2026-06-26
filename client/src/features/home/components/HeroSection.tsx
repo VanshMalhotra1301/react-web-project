@@ -13,9 +13,9 @@ const HERO_WORDS = [
 ];
 
 const FLOATING_STATS = [
-  { icon: Trophy, value: '20+', label: 'Years of Trust', color: 'text-brand-gold' },
-  { icon: Users, value: '15,000+', label: 'Students Taught', color: 'text-brand-emerald' },
-  { icon: Star, value: '98%', label: 'Success Rate', color: 'text-brand-gold' },
+  { icon: Trophy, value: 'Expert', label: 'Faculty Members', color: 'text-brand-gold' },
+  { icon: Users, value: 'Small', label: 'Batch Sizes', color: 'text-brand-emerald' },
+  { icon: BookOpen, value: 'Modern', label: 'Methodology', color: 'text-brand-gold' },
 ];
 
 /**
@@ -91,7 +91,7 @@ export function HeroSection() {
                 </motion.span>
               </span>
               <br />
-              <span className="text-white/90">in Rohtak Since 2005</span>
+              <span className="text-white/90">in Rohtak</span>
             </motion.h1>
 
             {/* Subheading */}
@@ -138,24 +138,9 @@ export function HeroSection() {
               transition={{ duration: 0.5, delay: 0.6 }}
               className="mt-10 flex items-center gap-6"
             >
-              <div className="flex -space-x-2">
-                {[1, 2, 3, 4, 5].map((i) => (
-                  <div
-                    key={i}
-                    className="h-9 w-9 rounded-full border-2 border-brand-navy bg-gradient-to-br from-brand-gold/80 to-brand-gold-light flex items-center justify-center text-xs font-bold text-brand-navy"
-                  >
-                    {['A', 'R', 'S', 'P', 'M'][i - 1]}
-                  </div>
-                ))}
-              </div>
               <div>
-                <div className="flex items-center gap-1">
-                  {[1, 2, 3, 4, 5].map((i) => (
-                    <Star key={i} className="h-4 w-4 fill-brand-gold text-brand-gold" />
-                  ))}
-                  <span className="ml-1 text-sm font-semibold text-white">4.9/5</span>
-                </div>
-                <p className="text-xs text-white/50">Rated by 500+ parents & students</p>
+                <p className="text-sm font-semibold text-white">Join the New Standard of Education</p>
+                <p className="text-xs text-white/50">Personalised attention • Modern infrastructure</p>
               </div>
             </motion.div>
           </div>
@@ -236,11 +221,11 @@ export function HeroSection() {
                 >
                   <div className="flex items-center gap-3">
                     <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-emerald/20">
-                      <BookOpen className="h-5 w-5 text-brand-emerald" />
+                      <Star className="h-5 w-5 text-brand-emerald" />
                     </div>
                     <div>
-                      <p className="font-accent text-lg font-bold text-white">50+</p>
-                      <p className="text-xs text-white/60">Courses Offered</p>
+                      <p className="font-accent text-lg font-bold text-white">100%</p>
+                      <p className="text-xs text-white/60">Commitment</p>
                     </div>
                   </div>
                 </motion.div>

@@ -46,7 +46,7 @@ const NAV_ITEMS: NavItem[] = [
     ],
   },
   { label: 'Faculty', href: '/faculty' },
-  { label: 'Results', href: '/results' },
+
   {
     label: 'Resources',
     href: '#',

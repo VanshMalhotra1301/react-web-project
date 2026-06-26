@@ -19,8 +19,6 @@ import { useState } from 'react';
 const quickLinks = [
   { label: 'About Us', href: '/about' },
   { label: 'Our Faculty', href: '/faculty' },
-  { label: 'Results', href: '/results' },
-  { label: 'Testimonials', href: '/testimonials' },
   { label: 'Gallery', href: '/gallery' },
   { label: 'Blog', href: '/blog' },
   { label: 'Admissions', href: '/admissions' },
@@ -107,9 +105,8 @@ export function Footer() {
               <img src="/logo.png" alt="Malhotra Classes" className="h-16 w-auto brightness-0 invert" />
             </Link>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/60">
-              Malhotra Classes is Rohtak's most trusted coaching institute, nurturing academic excellence
-              since 2005. We provide expert guidance for CBSE, HBSE, ICSE, JEE, NEET, and Olympiad
-              preparation with a proven track record of outstanding results.
+              Malhotra Classes is Rohtak's premier coaching institute, dedicated to nurturing academic excellence. We provide expert guidance for CBSE, HBSE, ICSE, JEE, NEET, and Olympiad
+              preparation through highly personalized and modern teaching methods.
             </p>
 
             {/* Contact Info */}
