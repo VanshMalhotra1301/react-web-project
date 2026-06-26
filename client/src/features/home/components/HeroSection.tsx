@@ -91,7 +91,7 @@ export function HeroSection() {
                 </motion.span>
               </span>
               <br />
-              <span className="text-white/90">in Rohtak</span>
+              <span className="text-white/90"></span>
             </motion.h1>
 
             {/* Subheading */}
